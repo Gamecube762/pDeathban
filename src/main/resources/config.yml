@@ -1,0 +1,22 @@
+Settings:
+    DefaultLives: 1
+    DefaultTimeScale: Days
+    DefaultTime: 2
+    Groups:
+        VIP:
+            Lives: 1
+            TimeScale: Days
+            Time: 1
+        VIP+:
+            Lives: 2
+            TimeScale: Hours
+            Time: 12
+        Admin:
+            Lives: 4
+            TimeScale: Hours
+            Time: 1
+Players:
+    becd87e2-8d57-4ca7-baf2-1e42c8961dc2:
+        Name: Gamecube762
+        Lives: 2
+        BanTime: 0

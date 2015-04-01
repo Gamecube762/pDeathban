@@ -1,0 +1,37 @@
+name: pDeathBan
+main: com.github.Gamecube762.pDeathBan.Main
+author: Gamecube762
+version: ${project.version}
+prefix: DB
+commands:
+   DeathBan:
+      description: DeathBan command
+      usage: /<command>
+      aliases: [pDeathBan, db]
+      permission: deathban.command
+      permission-message: You don't have <permission>
+   Lives:
+      description: Lives command
+      usage: /<command>
+      aliases: [live, credit, credits]
+      permission: deathban.command.lives
+      permission-message: You don't have <permission>
+permissions:
+   deathban.command.deathban:
+      description: command
+      default: true
+   deathban.command.deathban.ban:
+      description: command
+      default: op
+   deathban.command.deathban.unban:
+      description: command
+      default: op
+   deathban.command.lives:
+      description: command
+      default: true
+   deathban.command.lives.send:
+      description: command
+      default: true
+   deathban.command.lives.set:
+      description: command
+      default: op
